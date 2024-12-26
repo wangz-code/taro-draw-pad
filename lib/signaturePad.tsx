@@ -74,6 +74,7 @@ const SignaturePad = React.forwardRef<any, IProps>(({className, style}, ref)=>{
         toDataURL: toDataURL,
         isEmpty: isEmpty,
         fromDataURL: fromDataURL,
+        padCurr:signaturePadRef.current
     }));
 
     useEffect(()=>{

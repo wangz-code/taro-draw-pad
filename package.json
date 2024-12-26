@@ -1,15 +1,16 @@
 {
-  "name": "@wangz/taro-draw-pad",
-  "version": "0.0.1",
+  "name": "taro-draw-pad",
+  "version": "1.0.1",
   "description": "taro3手写签名库绘图板",
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
+    "push": "pnpm publish --no-git-checks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangz-code/taro-signature-pad"
+    "url": "git+https://github.com/wangz-code/taro-draw-pad"
   },
   "publishConfig": {
     "access": "public"
