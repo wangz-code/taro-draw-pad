@@ -1,7 +1,7 @@
 {
-  "name": "@yz1311/taro-signature-pad",
+  "name": "@wangz/taro-draw-pad",
   "version": "0.0.1",
-  "description": "taro3手写签名库",
+  "description": "taro3手写签名库绘图板",
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yz1311/taro-signature-pad.git"
+    "url": "git+https://github.com/wangz-code/taro-signature-pad"
   },
   "publishConfig": {
     "access": "public"
@@ -23,10 +23,6 @@
   ],
   "author": "yz1311",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yz1311/taro-signature-pad/issues"
-  },
-  "homepage": "https://github.com/yz1311/taro-signature-pad#readme",
   "dependencies": {
 
   },

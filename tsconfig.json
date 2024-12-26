@@ -9,7 +9,6 @@
     "experimentalDecorators": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "watch": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
