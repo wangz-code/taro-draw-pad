@@ -36,7 +36,7 @@ import {SignaturePad} from "taro-draw-pad";
 | name        | type     | Description                                                       |
 | ----------- | -------- | ----------------------------------------------------------------- |
 | isEmpty     | boolean  | 判断是否签名是空白的                                              |
-| fromDataURL | function | 还原签名数据 `dataUrl`: 图片的 base64 数据 `options` `callback`法 |
+| fromDataURL | function | 还原签名数据 `dataUrl`: 图片的 base64 数据 `options` `callback` 如果是微信小程序需要传递 options.wx=true |
 | toDataURL   | function | 获取签名数据 toDataURL(type, encoderOptions) 默认为 png 图片，    |
 | clear       | function | 清空签名数据                                                      |
 | save        | function | 将签名数据转换为 png 图片并且保存到系统相册                       |
