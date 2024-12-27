@@ -1,6 +1,6 @@
 {
   "name": "taro-draw-pad",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "taro3手写签名库绘图板",
   "main": "index.js",
   "types": "types/index.d.ts",
